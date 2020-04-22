@@ -1,32 +1,30 @@
-.header__line {
-    margin: 28px auto 0;
-    display: flex;
-    justify-content: space-between;
+.photo-grid_position_center {
     max-width: 1184px;
-    width: 100%;
+    margin: 92px auto 97px;
 }
 
 @media screen and (max-width: 1279px) {
-    .header__line {
+    .photo-grid_position_center {
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .header__line {
+    .photo-grid_position_center {
         max-width: 720px;
+        margin: 88px auto;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .header__line {
+    .photo-grid_position_center {
         max-width: 385px;
+        align-self: center;
     }
 }
 
 @media screen and (max-width: 424px) {
-    .header__line {
-        max-width: 288px;
-        margin-top: 16px;
+    .photo-grid_position_center {
+        margin: 64px 16px;
     }
 }

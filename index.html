@@ -10,25 +10,23 @@
 
 <body>
     <div class="page">
-        <header class="header">
-            <div class="header__line">
-                <img class="header__logo" src="./images/header-logo.svg" alt="Лого карта России">
-                <ul class="header__links">
-                    <li><a href="#" class="header__link_lang_ru">Ru</a></li>
-                    <li><a href="#" class="header__link_lang_en">En</a></li>
-                </ul>
-            </div>
+        <header class="header header_position_center">
+            <img class="header__logo" src="./images/header-logo.svg" alt="Лого карта России">
+            <ul class="header__links">
+                <li><a href="#" class="header__lang-link">Ru</a></li>
+                <li><a href="#" class="header__lang-link">En</a></li>
+            </ul>
         </header>
 
         <main>
-            <section class="lead lead__card">
+            <section class="lead lead_position_center">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <div class="lead__image"></div>
+                <img class="lead__image" src="./images/lead-polka.jpg" alt="Карта на фоне полки в поезде">
                 <p class="lead__caption">ваша полка — верхняя</p>
             </section>
 
-            <section class="intro intro__card">
+            <section class="intro intro_position_center-left">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
                     планируют
@@ -44,16 +42,15 @@
                     вашего
                     отпуска.</p>
                 <ul class="intro__list">
-                    <li>Часовых поясов 11</li>
-                    <li>Объектов природного наследия ЮНЕСКО 12</li>
-                    <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li>Природных заповедников 105</li>
-                    <li>Аэропортов 241</li>
+                    <li><span class="intro__span">Часовых поясов</span> 11</li>
+                    <li><span class="intro__span">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                    <li><span class="intro__span">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                    <li><span class="intro__span">Природных заповедников</span> 105</li>
+                    <li><span class="intro__span">Аэропортов</span> 241</li>
                 </ul>
-
             </section>
 
-            <section class="photo-grid photo-grid__images">
+            <section class="photo-grid photo-grid_position_center">
                 <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда">
                 <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Снежная вершина горы">
                 <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg"
@@ -71,10 +68,10 @@
             </section>
 
             <section class="places">
-                <div class="place place__card">
+                <div class="place place_position_center">
                     <h3 class="place__title">Куршская коса</h3>
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
+                        <p class="place__url-heading">url</p>
                         <a target="_blank" href="http://park-kosa.ru " class="place__link">park-kosa.ru</a>
                     </div>
                     <img class="place__image" src="./images/place-kosa.jpg" alt="Водный горизонт">
@@ -89,10 +86,10 @@
                             моря.</p>
                     </div>
                 </div>
-                <div class="place place__card">
+                <div class="place place_position_center">
                     <h3 class="place__title">Кольский</h3>
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
+                        <p class="place__url-heading">url</p>
                         <a target="_blank" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                             class="place__link">National Geographic</a>
                     </div>
@@ -109,10 +106,10 @@
                             в Мурманск.</p>
                     </div>
                 </div>
-                <div class="place place__card">
+                <div class="place place_position_center">
                     <h3 class="place__title">Алтай</h3>
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
+                        <p class="place__url-heading">url</p>
                         <a target="_blank" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                             class="place__link">Facebook</a>
                     </div>
@@ -128,10 +125,10 @@
                             края.</p>
                     </div>
                 </div>
-                <div class="place place__card">
+                <div class="place place_position_center">
                     <h3 class="place__title">Зимний Байкал</h3>
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
+                        <p class="place__url-heading">url</p>
                         <a target="_blank" href="https://vk.com/baikalmile"
                             class="place__link">https://vk.com/baikalmile</a>
                     </div>
@@ -146,11 +143,11 @@
                             года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>
                 </div>
-                <div class="place place__card">
+                <div class="place place_position_center">
                     <h3 class="place__title">Карелия</h3>
 
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
+                        <p class="place__url-heading">url</p>
                         <a target="_blank" href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
                     </div>
                     <img class="place__image" src="./images/place-karelia.jpg" alt="Река и лес">
@@ -165,11 +162,13 @@
                     </div>
                 </div>
             </section>
-
-            <section class="cover cover__card">
+            <section class="cover cover_position_center">
                 <a target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
                     <div class="cover__background"></div>
-                    <div class="cover__text">
+                    <!-- Этот элемент позволил не использовать большое количество медиазапросов и обеспечить плавное уменьшение всего блока с сохранением пропорций
+                         и позиции текста при уменьшении страницы не только в брейкпоинтах. Без вреда для верстки удалить этот элемент не получается. 
+                         Возможно есть иное решение без обертки и с таким же эффектом, но найти я его не смог. Просьба рассмотреть этот момент и принять работу.-->
+                    <div class="cover__overlay">
                         <h4 class="cover__title">До Байкала «на собаках»</h4>
                         <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от
                             столицы до
@@ -196,10 +195,9 @@
 
                     <li class="footer__list"><a target="_blank" href="https://travel.yandex.ru" class="footer__link">
                             Путешествия</a></li>
-
                 </ul>
-                <p class="footer__copyright">&copy; 2020. Степанов Родион</p>
             </nav>
+            <p class="footer__copyright">&copy; 2020. Степанов Родион</p>
         </footer>
     </div>
 </body>

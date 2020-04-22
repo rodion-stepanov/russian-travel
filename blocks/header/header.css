@@ -1,9 +1,9 @@
-@import url(./__line/header__line.css);
 @import url(./__logo/header__logo.css);
 @import url(./__links/header__links.css);
-@import url(./__link/_lang/header__link_lang_ru.css);
-@import url(./__link/_lang/header__link_lang_en.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./_position/header_position_center.css);
 
 .header {
     display: flex;
+    justify-content: space-between;
 }

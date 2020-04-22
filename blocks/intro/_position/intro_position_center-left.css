@@ -1,31 +1,31 @@
-.intro__card {
+.intro_position_center-left {
     max-width: 984px;
-    width: 100%;
+    width: 95%;
     margin: 92px auto 0;
 }
 
 @media screen and (max-width: 1279px) {
-    .intro__card {
+    .intro_position_center-left {
         margin-left: 48px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .intro__card {
+    .intro_position_center-left {
         max-width: 720px;
         margin: 88px 24px 0;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .intro__card {
+    .intro_position_center-left {
         max-width: 385px;
         margin: 88px auto 0;
     }
 }
 
 @media screen and (max-width: 424px) {
-    .intro__card {
+    .intro_position_center-left {
         margin: 64px auto 0;
         max-width: 288px;
     }

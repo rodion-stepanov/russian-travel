@@ -1,16 +1,16 @@
-.lead__card {
+.lead_position_center {
     max-width: 984px;
     margin: 56px auto 0;
 }
 
 @media screen and (max-width: 1279px) {
-    .lead__card {
+    .lead_position_center {
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 424px) {
-    .lead__card {
+    .lead_position_center{
         margin-top: 48px;
     }
 }

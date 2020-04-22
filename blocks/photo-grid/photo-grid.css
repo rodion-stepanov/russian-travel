@@ -1,4 +1,4 @@
-@import url(./__images/photo-grid__images.css);
+@import url(./_position/photo-grid_position_center.css);
 @import url(./__item/photo-grid__item.css);
 .photo-grid {
     display: grid;

@@ -22,5 +22,6 @@
     .footer__nav {
         margin: 64px 118px 0 16px;
         flex-direction: column;
+        padding: 0;
     }
 }
