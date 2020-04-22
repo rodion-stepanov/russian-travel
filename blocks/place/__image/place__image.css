@@ -1,0 +1,38 @@
+.place__image {
+    max-width: 460px;
+    max-height: 460px;
+    margin: 48px 40px 0 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__image {
+        max-width: 440px;
+        max-height: 440px;
+        margin-right: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__image {
+        max-width: 340px;
+        max-height: 340px;
+        margin-right: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        max-width: 385px;
+        max-height: 385px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .place__image {
+        margin-top: 32px;
+    }
+    .place__image {
+        width: 100%;
+    }
+}

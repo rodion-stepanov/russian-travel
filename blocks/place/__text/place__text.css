@@ -1,0 +1,18 @@
+.place__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 484px;
+    min-width: 350px;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 424px) {
+    .place__text {
+        margin: 32px auto 0;
+        max-width: 288px;
+        min-width: 0;
+    }
+    .place__text:last-child {
+        margin-bottom: 0;
+    }
+}

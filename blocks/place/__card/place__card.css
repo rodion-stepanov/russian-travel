@@ -1,0 +1,50 @@
+.place__card {
+    max-width: 984px;
+    margin: 0 auto 80px;
+}
+
+.place__card:nth-of-type(1) {
+    margin-bottom: 75px;
+}
+
+.place__card:last-of-type {
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__card {
+        max-width: 928px;
+    }
+    .place__card:nth-of-type(1) {
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__card {
+        max-width: 720px;
+        margin-left: auto;
+        margin-bottom: 72px;
+    }
+    .place__card:nth-of-type(1) {
+        margin-bottom: 72px;
+    }
+    .place__card:last-of-type {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__card {
+        max-width: 385px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .place__card {
+        margin-bottom: 48px;
+    }
+    .place__card:last-of-type {
+        margin-bottom: 64px;
+    }
+}
