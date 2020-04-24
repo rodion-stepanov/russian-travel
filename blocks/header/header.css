@@ -1,6 +1,7 @@
 @import url(./__logo/header__logo.css);
 @import url(./__links/header__links.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_selected/header__lang-link_selected.css);
 @import url(./_position/header_position_center.css);
 
 .header {

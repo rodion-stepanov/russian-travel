@@ -14,10 +14,6 @@
     transition: 0.4s linear;
 }
 
-.header__lang-link:active {
-    text-decoration: underline;
-}
-
 @media screen and (max-width: 767px) {
     .header__lang-link {
         font-size: 18px;
