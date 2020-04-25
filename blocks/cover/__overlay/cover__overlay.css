@@ -16,7 +16,7 @@
 
 .cover__overlay::before {
     background-color: #2A2C2F;
-    opacity: 0;
+    opacity: 0.3;
     content: "";
     position: absolute;
     top: 0;
