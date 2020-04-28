@@ -1,6 +1,10 @@
 .cover_position_center {
-    width: 100%;
-    max-width: 1184px;
-    margin: auto;
     position: relative;
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover_position_center {
+        margin: 0;
+    }
 }
