@@ -1,6 +1,6 @@
 # Путешествия по России
 ___
-<https://rodion257.github.io/russian-travel/>
+<https://rodion-stepanov.github.io/russian-travel/>
 
 ## Описание
 Учебный проект с адаптивной версткой.
